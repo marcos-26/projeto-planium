@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/orcamento', [App\Http\Controllers\PlaniumController::class, 'getOrcamento'])->name('orcamento');
