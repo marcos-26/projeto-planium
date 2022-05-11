@@ -21,6 +21,4 @@ Auth::routes();
 
 Route::get('/orcamento', [App\Http\Controllers\PlaniumController::class, 'getOrcamento'])->name('orcamento');
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
