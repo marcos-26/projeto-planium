@@ -1,0 +1,9 @@
+[
+    {
+    "quantidade" : 2,
+    "idade" : [20,40],
+    "name" : ["marcos","lucas"],
+    "registro" : "reg1"
+    }
+
+]
